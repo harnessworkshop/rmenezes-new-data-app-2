@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rmenezes-new-data-app-2
+  description: Pipeline component created
+  annotations:
+    backstage.io/techdocs-ref: dir:../
+  tags:
+    - rmenezes
+spec:
+  type: service
+  owner: pexa
+  lifecycle: experimental
